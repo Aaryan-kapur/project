@@ -1,0 +1,62 @@
+.mainDetails {
+  background-color: #697dff;
+  color: white;
+  padding: 1rem;
+  .titleDetails {
+    text-align: center;
+    color: white;
+    margin-bottom: 1rem;
+    .detailsText {
+      font-size: 3rem;
+      font-weight: 500;
+      @media only screen and (max-width:768px){
+        font-size: 2rem;
+        font-weight: 600;
+          
+      }
+   
+    }
+  }
+  .rowDetails {
+margin-bottom:  3rem;
+margin-top:4rem;
+    @media only screen and (max-width: 768px) {
+      margin-top: 2rem;
+    }
+    .leftDetails {
+      text-align: center;
+      @media only screen and (max-width: 768px) {
+        margin-top: 1rem;
+      }
+      .DetailsTitle {
+        font-size: 1.9rem;
+        font-weight: 600;
+        @media only screen and (max-width: 768px) {
+          font-size: 2rem;
+        }
+      }
+    }
+    .rightDetails {
+      text-align: center;
+      .imageDetails {
+        border-radius: 20px;
+        width: 30rem;
+        @media only screen and (max-width: 768px) {
+          width: 16rem;
+        }
+      }
+    }
+  }
+}
+.onPC {
+  @media only screen and (max-width: 768px) {
+    visibility: hidden;
+    display: none;
+  }
+}
+.onPhone {
+  @media only screen and (min-width: 768px) {
+    visibility: hidden;
+    display: none;
+  }
+}

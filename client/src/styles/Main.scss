@@ -1,0 +1,32 @@
+.outerMain {
+  text-align: center;
+  .mainHeading {
+      font-weight:500;
+      font-size:3rem;
+    margin-bottom: 2rem;
+    @media only screen and (max-width:768px){
+      font-size: 2rem;
+      font-weight: 600;
+        
+    }
+ 
+
+  }
+  .cardRow {
+    margin-bottom: 5rem;
+
+    .cardDetails {
+      .cardMain {
+        border-radius: 20px;
+        // width: 20rem;
+        @media only screen and (max-width: 768px) {
+          //   width: 18rem;
+          margin-top: 2rem;
+        }
+      }
+      .cardImage {
+        border-radius: 20px 20px 0 0;
+      }
+    }
+  }
+}

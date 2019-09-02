@@ -1,0 +1,40 @@
+.dataBox{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+
+}
+.dataCards{
+    margin-bottom:3rem;
+    border-radius: 15px;
+    padding:10px;
+    text-align: center;
+}
+.dataText{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.dataTitle{
+    font-size: 3rem;
+    font-weight: 500;
+    @media only screen and (max-width:768px){
+      font-size: 2rem;
+      font-weight: 600;   
+    }
+}
+.dabbaData{
+    width:70vw;
+}
+.card11{
+   margin-top:2rem;
+}
+.card12{
+    margin-top:2rem;
+    @media only screen and (max-width:768px){
+        margin-top: 0;
+        
+    }
+}
+.dataDabba{
+    text-align: center;
+}
