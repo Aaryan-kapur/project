@@ -1,12 +1,14 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import WOW from "wowjs";
-import Nav from './Nav';
-import Upper from './Upper';
-import Main from './Main';
-import Details from './Details';
-import Data from './Data';
-import UskeNeeche from './UskeNeeche';
-import Footer from './Footer';
+import Nav from "./Nav";
+import Upper from "./Upper";
+import Main from "./Main";
+import Details from "./Details";
+import Data from "./Data";
+import UskeNeeche from "./UskeNeeche";
+import ClientSlider from "./ClientSlider";
+import "../styles/App.scss";
+import Footer from "./Footer";
 class App extends Component {
   componentDidMount() {
     const wow = new WOW.WOW();
@@ -16,14 +18,16 @@ class App extends Component {
   render() {
     return (
       <React.Fragment className="outer">
-      <Nav />
-     <Upper />  
-     <Main />
-     <Details />
-     <Data />
-     <UskeNeeche />
-     <Footer />
-     </React.Fragment>
+        
+        <Nav />
+        <Upper />
+        <Main />
+        <Details />
+        <Data />
+        <UskeNeeche />
+        <ClientSlider />
+        <Footer />
+      </React.Fragment>
     );
   }
 }

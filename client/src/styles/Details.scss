@@ -1,6 +1,8 @@
+@import 'colors.scss';
+
 .mainDetails {
-  background-color: #697dff;
-  color: white;
+  background-color: $tertiary;
+  color:$secondary;
   padding: 1rem;
   .titleDetails {
     text-align: center;

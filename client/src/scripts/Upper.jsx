@@ -10,6 +10,8 @@ class Upper extends Component {
     return (
       <div id="#1">
         <React.Fragment>
+          <div className="outer_Upper">
+
           <MDBContainer>
             <MDBRow className="row1 rowUpper ">
               <MDBCol sm="12" md="6" className="leftUpper">
@@ -39,6 +41,7 @@ class Upper extends Component {
               </MDBCol>
             </MDBRow>
           </MDBContainer>
+          </div>
         </React.Fragment>
       </div>
     );
