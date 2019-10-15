@@ -1,8 +1,10 @@
-import React from 'react';
-import range from 'lodash/range';
-import styled from 'styled-components';
-import ItemsCarousel from 'react-items-carousel';
-import {image} from "../assets/1.jpeg"
+import React from "react";
+import range from "lodash/range";
+import styled from "styled-components";
+import ItemsCarousel from "react-items-carousel";
+// import { image } from "../assets/2.jpg";
+import "../styles/ClientSlider.scss";
+
 const noOfItems = 12;
 const noOfCards = 3;
 const autoPlayDelay = 2000;
@@ -16,7 +18,7 @@ const Wrapper = styled.div`
 
 const SlideItem = styled.div`
   height: 200px;
-  background: #EEE;
+  background: #eee;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,14 +27,12 @@ const SlideItem = styled.div`
 `;
 
 const carouselItems = range(noOfItems).map(index => (
-  <SlideItem key={index}>
-    {index+1}
-  </SlideItem>
+  <SlideItem key={index}>{index + 1}</SlideItem>
 ));
 
 export default class ClientSlider extends React.Component {
   state = {
-    activeItemIndex: 0,
+    activeItemIndex: 0
   };
 
   componentDidMount() {
@@ -43,32 +43,69 @@ export default class ClientSlider extends React.Component {
     clearInterval(this.interval);
   }
 
-  tick = () => this.setState(prevState => ({
-    activeItemIndex: (prevState.activeItemIndex + 1) % (noOfItems-noOfCards + 1),
-  }));
+  tick = () =>
+    this.setState(prevState => ({
+      activeItemIndex:
+        (prevState.activeItemIndex + 1) % (noOfItems - noOfCards + 1)
+    }));
 
   onChange = value => this.setState({ activeItemIndex: value });
 
   render() {
     return (
-      <Wrapper>
-        <ItemsCarousel
-          gutter={12}
-          numberOfCards={noOfCards}
-          activeItemIndex={this.state.activeItemIndex}
-          requestToChangeActive={this.onChange}
-          rightChevron={<button className="btn btn-primary">{'>'}</button>}
-          leftChevron={<button className="btn btn-primary ">{'<'}</button>}
-          chevronWidth={chevronWidth}
-          outsideChevron
-          children={carouselItems}
-        >
-           <div style={{ height: 200, background: '#EEE' }}>First card</div>
-        <div style={{ height: 200, background: '#EEE' }}>Second card</div>
-        <div style={{ height: 200, background: '#EEE' }}>Third card</div>
-        <div style={{ height: 200, background: {image} }}>Fourth card</div>
-        </ItemsCarousel>
-      </Wrapper>
+      <React.Fragment>
+        <div className="title-h">
+          <span className="TitleClient">Our Clients</span>
+        </div>
+        <Wrapper>
+          <ItemsCarousel
+            gutter={12}
+            numberOfCards={noOfCards}
+            activeItemIndex={this.state.activeItemIndex}
+            requestToChangeActive={this.onChange}
+            rightChevron={<button className="btn btn-primary">{">"}</button>}
+            leftChevron={<button className="btn btn-primary ">{"<"}</button>}
+            chevronWidth={chevronWidth}
+            outsideChevron
+            children={carouselItems}
+          >
+            <div className="carouselCard">
+              <img
+                className="image_client"
+                src={require("../assets/1.jpeg")}
+                alt=""
+              />
+              First card
+            </div>
+            <div className="carouselCard">
+              <img
+                className="image_client"
+                src={require("../assets/1.jpeg")}
+                alt=""
+              />
+              
+              Second card
+            </div>  
+            <div className="carouselCard">
+              <img
+                className="image_client"
+                src={require("../assets/1.jpeg")}
+                alt=""
+              />
+              Third card
+            </div>
+            <div className="carouselCard">
+              {" "}
+              <img
+                className="image_client"
+                src={require("../assets/1.jpeg")}
+                alt=""
+              />{" "}
+              Fourth card
+            </div>
+          </ItemsCarousel>
+        </Wrapper>
+      </React.Fragment>
     );
   }
 }

@@ -2,11 +2,11 @@
 
 .mainDetails {
   background-color: $tertiary;
-  color:$secondary;
+  color:$primary;
   padding: 1rem;
   .titleDetails {
     text-align: center;
-    color: white;
+    color: $primary;
     margin-bottom: 1rem;
     .detailsText {
       font-size: 3rem;

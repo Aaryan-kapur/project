@@ -33,9 +33,9 @@ class Upper extends Component {
               </MDBCol>
               <MDBCol sm="12" md="6" className="leftUpper">
                 <div className="title">
-                  <p className="titlename">
+                  <p className="titlename"> hello
                     {" "}
-                    <span>UltraTech Engineering </span>
+                    <span className = "upper_heading">UltraTech Engineering </span>
                   </p>
                 </div>
               </MDBCol>
