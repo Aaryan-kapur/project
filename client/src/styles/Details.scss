@@ -1,8 +1,8 @@
-@import 'colors.scss';
+@import "colors.scss";
 
 .mainDetails {
   background-color: $tertiary;
-  color:$primary;
+  color: $primary;
   padding: 1rem;
   .titleDetails {
     text-align: center;
@@ -11,17 +11,15 @@
     .detailsText {
       font-size: 3rem;
       font-weight: 500;
-      @media only screen and (max-width:768px){
+      @media only screen and (max-width: 768px) {
         font-size: 2rem;
         font-weight: 600;
-          
       }
-   
     }
   }
   .rowDetails {
-margin-bottom:  3rem;
-margin-top:4rem;
+    margin-bottom: 3rem;
+    margin-top: 4rem;
     @media only screen and (max-width: 768px) {
       margin-top: 2rem;
     }
@@ -43,6 +41,9 @@ margin-top:4rem;
       .imageDetails {
         border-radius: 20px;
         width: 30rem;
+        @media only screen and (min-width: 768px) and (max-width: 1025px) {
+          width: 18rem;
+        }
         @media only screen and (max-width: 768px) {
           width: 16rem;
         }
@@ -50,6 +51,7 @@ margin-top:4rem;
     }
   }
 }
+
 .onPC {
   @media only screen and (max-width: 768px) {
     visibility: hidden;

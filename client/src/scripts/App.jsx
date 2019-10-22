@@ -21,11 +21,11 @@ class App extends Component {
         
         <Nav />
         <Upper />
+        <ClientSlider />
         <Main />
         <Details />
         <Data />
         <UskeNeeche />
-        <ClientSlider />
         <Footer />
       </React.Fragment>
     );

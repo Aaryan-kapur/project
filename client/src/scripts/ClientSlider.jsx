@@ -73,21 +73,19 @@ export default class ClientSlider extends React.Component {
             <div className="carouselCard">
               <img
                 className="image_client"
-                src={require("../assets/1.jpeg")}
+                src={require("../assets/1.png")}
                 alt=""
               />              <br />
 
-              First card
             </div>
             <div className="carouselCard">
               <img
                 className="image_client"
-                src={require("../assets/1.jpeg")}
+                src={require("../assets/1.png")}
                 alt=""
               />              <br />
 
               
-              Second card
             </div>  
             <div className="carouselCard">
               <img
@@ -96,7 +94,6 @@ export default class ClientSlider extends React.Component {
                 alt=""
               />              <br />
 
-              Third card
             </div>
             <div className="carouselCard">
               {" "}
@@ -106,7 +103,6 @@ export default class ClientSlider extends React.Component {
                 alt=""
               />{" "}              <br />
 
-              Fourth card
             </div>
             <div className="carouselCard">
               <img
@@ -115,7 +111,6 @@ export default class ClientSlider extends React.Component {
                 alt=""
               />              <br />
 
-              First card
             </div>
             <div className="carouselCard">
               <img
@@ -125,7 +120,6 @@ export default class ClientSlider extends React.Component {
               />              <br />
 
               
-              Second card
             </div>  
             <div className="carouselCard">
               <img
@@ -134,7 +128,6 @@ export default class ClientSlider extends React.Component {
                 alt=""
               />              <br />
 
-              Third card
             </div>
             <div className="carouselCard">
               {" "}
@@ -144,7 +137,6 @@ export default class ClientSlider extends React.Component {
                 alt=""
               />{" "}              <br />
 
-              Fourth card
             </div>
           </ItemsCarousel>
         </Wrapper>
@@ -165,11 +157,10 @@ export default class ClientSlider extends React.Component {
             <div className="carouselCard">
               <img
                 className="image_client"
-                src={require("../assets/1.jpeg")}
+                src={require("../assets/1.png")}
                 alt=""
               />
               <br />
-              First card
             </div>
             <div className="carouselCard">
               <img
@@ -179,7 +170,6 @@ export default class ClientSlider extends React.Component {
               />
                             <br />
 
-              Second card
             </div>  
             <div className="carouselCard">
               <img
@@ -189,7 +179,6 @@ export default class ClientSlider extends React.Component {
               />
                             <br />
 
-              Third card
             </div>
             <div className="carouselCard">
               {" "}
@@ -199,7 +188,6 @@ export default class ClientSlider extends React.Component {
                 alt=""
               />{" "}              <br />
 
-              Fourth card
             </div>
             <div className="carouselCard">
               <img
@@ -207,7 +195,6 @@ export default class ClientSlider extends React.Component {
                 src={require("../assets/1.jpeg")}
                 alt=""
               />
-              First card
             </div>
             <div className="carouselCard">
               <img
@@ -216,7 +203,6 @@ export default class ClientSlider extends React.Component {
                 alt=""
               />
               
-              Second card
             </div>  
             <div className="carouselCard">
               <img
@@ -224,7 +210,6 @@ export default class ClientSlider extends React.Component {
                 src={require("../assets/1.jpeg")}
                 alt=""
               />
-              Third card
             </div>
             <div className="carouselCard">
               {" "}
@@ -233,7 +218,6 @@ export default class ClientSlider extends React.Component {
                 src={require("../assets/1.jpeg")}
                 alt=""
               />{" "}
-              Fourth card
             </div>
           </ItemsCarousel>
         </Wrapper>

@@ -28,7 +28,7 @@ export default class Nav extends Component {
           <div className="inner">
             <aside className="left col-12">
               <p>
-                <span>UltraTech Engineering </span>
+                <span className="logo">UltraTech Engineering </span>
               </p>
             </aside>
           </div>

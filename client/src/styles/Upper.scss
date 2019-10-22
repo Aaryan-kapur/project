@@ -1,3 +1,5 @@
+@import "fonts.scss";
+
 .container {
   .row1 {
     @media only screen and (max-width: 768px) {
@@ -12,22 +14,29 @@
     }
   }
   .rowUpper {
-    height: 100vh;  
-    padding-top: 30%;
+    // padding-top: 26%;
+    // position: relative;
+    padding-top: 20%;
     // transform: translateY(-50%);
-
+    height: 100vh;
+    @media only screen and (min-width: 768px) and (max-width: 1025px) {
+      padding-top: 40%;
+    }
     // margin:0 !important;
     @media only screen and (max-width: 768px) {
       height: 90vh;
-    padding-top: 50%;
+      padding-top: 50%;
 
       // margin-top:100%;
     }
     .leftUpper {
       height: fit-content;
       // margin-top: 50%;
-      text-align: center; 
-      margin-top:5%;
+      text-align: center;
+      margin-top: 15%;
+      @media only screen and (min-width: 768px) and (max-width: 1025px) {
+        margin-top: 9%;
+      }
 
       // transform: translateY(-50%);
       @media only screen and (max-width: 768px) {
@@ -40,9 +49,9 @@
     .rightUpper {
       // height:100vh;
       text-align: center;
-      margin-top: -10%;
+      // margin-top: 10%;
       width: 95%;
-      
+
       @media only screen and (max-width: 768px) {
         height: 45vh;
       }
@@ -59,7 +68,9 @@
 .title {
   font-size: 4rem !important;
   font-weight: 400;
-
+  @media only screen and (min-width: 768px) and (max-width: 1025px) {
+    font-size: 3rem !important ;
+  }
   @media only screen and (max-width: 768px) {
     font-size: 2rem !important ;
   }
@@ -67,14 +78,19 @@
 .titlename {
   //   position: absolute;
   //  top:50%;
-  color:white; 
-  font-weight: 600;
+  color: white;
+  font-weight: 300;
+  // font-family: $roboto;
+  @media only screen and (max-width: 768px) {
+    margin-top: -5rem;
+  }
   //  transform: translateY(-50%);
 }
-.outer_Upper{
+.outer_Upper {
+  font-weight: 100;
   // background: linear-gradient(-45deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 22%, rgba(0,212,255,1) 100%);
-  background: rgb(105,125,255);
-  background: linear-gradient(-223deg, rgba(105,125,255,1) 44%, rgba(3,17,110,0.6783088235294117) 100%);
-  
-      // background-color: blue
+  background: rgb(105, 125, 255);
+  background: linear-gradient(45deg, rgb(64, 4, 192) 54%, rgb(0, 81, 255) 100%);
+
+  // background-color: blue
 }
