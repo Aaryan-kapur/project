@@ -39,8 +39,7 @@ class Main extends Component {
                         Inventore a quaerat sed reiciendis rem similique
                      
                       </MDBCardText>
-                      <MDBBtn href="#">Details</MDBBtn>
-                    </MDBCardBody>
+                      </MDBCardBody>
                   </MDBCard>
                       </div>
                 </MDBCol>
@@ -59,8 +58,7 @@ class Main extends Component {
                         Inventore a quaerat sed reiciendis rem similique
                      
                       </MDBCardText>
-                      <MDBBtn href="#">Details</MDBBtn>
-                    </MDBCardBody>
+                      </MDBCardBody>
                   </MDBCard>{" "}
                   </div>
                 </MDBCol>
@@ -82,8 +80,7 @@ class Main extends Component {
                         Inventore a quaerat sed reiciendis rem similique
                      
                       </MDBCardText>
-                      <MDBBtn href="#">Details</MDBBtn>
-                    </MDBCardBody>
+                      </MDBCardBody>
                   </MDBCard>{" "}
                   </div>
                 </MDBCol>

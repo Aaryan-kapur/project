@@ -7,8 +7,9 @@ import "../styles/ClientSlider.scss";
 
 const noOfItems = 12;
 const noOfCards = 3;
+const noOfCards1 = 1;
 const autoPlayDelay = 2000;
-const chevronWidth = 40;
+const chevronWidth = 10;
 
 const Wrapper = styled.div`
   padding: 0 ${chevronWidth}px;
@@ -57,18 +58,149 @@ export default class ClientSlider extends React.Component {
         <div className="title-h">
           <span className="TitleClient">Our Clients</span>
         </div>
-        <Wrapper>
+        <Wrapper className="onPC">
           <ItemsCarousel
             gutter={12}
             numberOfCards={noOfCards}
             activeItemIndex={this.state.activeItemIndex}
             requestToChangeActive={this.onChange}
-            rightChevron={<button className="btn btn-primary">{">"}</button>}
-            leftChevron={<button className="btn btn-primary ">{"<"}</button>}
+            // rightChevron={<button className="btn btn-sm" >{">"}</button>}
+            // leftChevron={<button className="btn btn-sm">{"<"}</button>}
             chevronWidth={chevronWidth}
             outsideChevron
             children={carouselItems}
           >
+            <div className="carouselCard">
+              <img
+                className="image_client"
+                src={require("../assets/1.jpeg")}
+                alt=""
+              />              <br />
+
+              First card
+            </div>
+            <div className="carouselCard">
+              <img
+                className="image_client"
+                src={require("../assets/1.jpeg")}
+                alt=""
+              />              <br />
+
+              
+              Second card
+            </div>  
+            <div className="carouselCard">
+              <img
+                className="image_client"
+                src={require("../assets/1.jpeg")}
+                alt=""
+              />              <br />
+
+              Third card
+            </div>
+            <div className="carouselCard">
+              {" "}
+              <img
+                className="image_client"
+                src={require("../assets/1.jpeg")}
+                alt=""
+              />{" "}              <br />
+
+              Fourth card
+            </div>
+            <div className="carouselCard">
+              <img
+                className="image_client"
+                src={require("../assets/1.jpeg")}
+                alt=""
+              />              <br />
+
+              First card
+            </div>
+            <div className="carouselCard">
+              <img
+                className="image_client"
+                src={require("../assets/1.jpeg")}
+                alt=""
+              />              <br />
+
+              
+              Second card
+            </div>  
+            <div className="carouselCard">
+              <img
+                className="image_client"
+                src={require("../assets/1.jpeg")}
+                alt=""
+              />              <br />
+
+              Third card
+            </div>
+            <div className="carouselCard">
+              {" "}
+              <img
+                className="image_client"
+                src={require("../assets/1.jpeg")}
+                alt=""
+              />{" "}              <br />
+
+              Fourth card
+            </div>
+          </ItemsCarousel>
+        </Wrapper>
+
+
+        <Wrapper className="onPhone">
+          <ItemsCarousel
+            gutter={12}
+            numberOfCards={noOfCards1}
+            activeItemIndex={this.state.activeItemIndex}
+            requestToChangeActive={this.onChange}
+            // rightChevron={<button className="btn btn-sm" >{">"}</button>}
+            // leftChevron={<button className="btn btn-sm">{"<"}</button>}
+            chevronWidth={chevronWidth}
+            outsideChevron
+            children={carouselItems}
+          >
+            <div className="carouselCard">
+              <img
+                className="image_client"
+                src={require("../assets/1.jpeg")}
+                alt=""
+              />
+              <br />
+              First card
+            </div>
+            <div className="carouselCard">
+              <img
+                className="image_client"
+                src={require("../assets/1.jpeg")}
+                alt=""
+              />
+                            <br />
+
+              Second card
+            </div>  
+            <div className="carouselCard">
+              <img
+                className="image_client"
+                src={require("../assets/1.jpeg")}
+                alt=""
+              />
+                            <br />
+
+              Third card
+            </div>
+            <div className="carouselCard">
+              {" "}
+              <img
+                className="image_client"
+                src={require("../assets/1.jpeg")}
+                alt=""
+              />{" "}              <br />
+
+              Fourth card
+            </div>
             <div className="carouselCard">
               <img
                 className="image_client"

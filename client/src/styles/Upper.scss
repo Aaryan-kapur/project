@@ -1,5 +1,4 @@
 .container {
-
   .row1 {
     @media only screen and (max-width: 768px) {
       display: none;
@@ -13,38 +12,45 @@
     }
   }
   .rowUpper {
-    height: 100vh;
-    margin:0 !important;
+    height: 100vh;  
+    padding-top: 30%;
+    // transform: translateY(-50%);
+
+    // margin:0 !important;
     @media only screen and (max-width: 768px) {
-        height: 70vh;
-      }
+      height: 90vh;
+    padding-top: 50%;
+
+      // margin-top:100%;
+    }
     .leftUpper {
-      height: 100vh;
-      position: relative;
-      margin-top: 50%;
-      text-align: center;
-      transform: translateY(-50%);
+      height: fit-content;
+      // margin-top: 50%;
+      text-align: center; 
+      margin-top:5%;
+
+      // transform: translateY(-50%);
       @media only screen and (max-width: 768px) {
         text-align: center;
         height: 10vh;
-        margin-top: 10%;
+        // margin-top: 10%;
       }
     }
 
     .rightUpper {
       // height:100vh;
       text-align: center;
-      width:100vw;
+      margin-top: -10%;
+      width: 95%;
+      
       @media only screen and (max-width: 768px) {
         height: 45vh;
       }
       .image {
-        position: relative;
-        margin-top: 60%;
-        transform: translateY(-50%);
         width: 40vw;
+        // margin-top:-20%;
         @media only screen and (max-width: 768px) {
-          width: 70vw;
+          width: 80vw;
         }
       }
     }
@@ -54,11 +60,21 @@
   font-size: 4rem !important;
   font-weight: 400;
 
-
-
-
-
   @media only screen and (max-width: 768px) {
-font-size:2rem !important ;  }
-
+    font-size: 2rem !important ;
+  }
+}
+.titlename {
+  //   position: absolute;
+  //  top:50%;
+  color:white; 
+  font-weight: 600;
+  //  transform: translateY(-50%);
+}
+.outer_Upper{
+  // background: linear-gradient(-45deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 22%, rgba(0,212,255,1) 100%);
+  background: rgb(105,125,255);
+  background: linear-gradient(-223deg, rgba(105,125,255,1) 44%, rgba(3,17,110,0.6783088235294117) 100%);
+  
+      // background-color: blue
 }
