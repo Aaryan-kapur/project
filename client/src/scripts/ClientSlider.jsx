@@ -8,7 +8,7 @@ import "../styles/ClientSlider.scss";
 const noOfItems = 12;
 const noOfCards = 3;
 const noOfCards1 = 1;
-const autoPlayDelay = 2000;
+const autoPlayDelay = 1200;
 const chevronWidth = 10;
 
 const Wrapper = styled.div`
@@ -73,7 +73,7 @@ export default class ClientSlider extends React.Component {
             <div className="carouselCard">
               <img
                 className="image_client"
-                src={require("../assets/1.png")}
+                src={require("../assets/logo/aditya_birla.png")}
                 alt=""
               />              <br />
 
@@ -81,7 +81,7 @@ export default class ClientSlider extends React.Component {
             <div className="carouselCard">
               <img
                 className="image_client"
-                src={require("../assets/1.png")}
+                src={require("../assets/logo/essar.png")}
                 alt=""
               />              <br />
 
@@ -90,7 +90,7 @@ export default class ClientSlider extends React.Component {
             <div className="carouselCard">
               <img
                 className="image_client"
-                src={require("../assets/1.jpeg")}
+                src={require("../assets/logo/GMDC.png")}
                 alt=""
               />              <br />
 
@@ -99,7 +99,7 @@ export default class ClientSlider extends React.Component {
               {" "}
               <img
                 className="image_client"
-                src={require("../assets/1.jpeg")}
+                src={require("../assets/logo/isgec.png")}
                 alt=""
               />{" "}              <br />
 
@@ -107,7 +107,7 @@ export default class ClientSlider extends React.Component {
             <div className="carouselCard">
               <img
                 className="image_client"
-                src={require("../assets/1.jpeg")}
+                src={require("../assets/logo/l&t.png")}
                 alt=""
               />              <br />
 
@@ -115,7 +115,7 @@ export default class ClientSlider extends React.Component {
             <div className="carouselCard">
               <img
                 className="image_client"
-                src={require("../assets/1.jpeg")}
+                src={require("../assets/logo/patel.png")}
                 alt=""
               />              <br />
 
@@ -124,7 +124,7 @@ export default class ClientSlider extends React.Component {
             <div className="carouselCard">
               <img
                 className="image_client"
-                src={require("../assets/1.jpeg")}
+                src={require("../assets/logo/r&b_gujarat.png")}
                 alt=""
               />              <br />
 
@@ -133,7 +133,7 @@ export default class ClientSlider extends React.Component {
               {" "}
               <img
                 className="image_client"
-                src={require("../assets/1.jpeg")}
+                src={require("../assets/logo/welspun.png")}
                 alt=""
               />{" "}              <br />
 
@@ -154,37 +154,36 @@ export default class ClientSlider extends React.Component {
             outsideChevron
             children={carouselItems}
           >
-            <div className="carouselCard">
+             <div className="carouselCard">
               <img
                 className="image_client"
-                src={require("../assets/1.png")}
+                src={require("../assets/logo/aditya_birla.png")}
                 alt=""
-              />
-              <br />
+              />              <br />
+
             </div>
             <div className="carouselCard">
               <img
                 className="image_client"
-                src={require("../assets/1.jpeg")}
+                src={require("../assets/logo/essar.png")}
                 alt=""
-              />
-                            <br />
+              />              <br />
 
+              
             </div>  
             <div className="carouselCard">
               <img
                 className="image_client"
-                src={require("../assets/1.jpeg")}
+                src={require("../assets/logo/GMDC.png")}
                 alt=""
-              />
-                            <br />
+              />              <br />
 
             </div>
             <div className="carouselCard">
               {" "}
               <img
                 className="image_client"
-                src={require("../assets/1.jpeg")}
+                src={require("../assets/logo/isgec.png")}
                 alt=""
               />{" "}              <br />
 
@@ -192,32 +191,36 @@ export default class ClientSlider extends React.Component {
             <div className="carouselCard">
               <img
                 className="image_client"
-                src={require("../assets/1.jpeg")}
+                src={require("../assets/logo/l&t.png")}
                 alt=""
-              />
+              />              <br />
+
             </div>
             <div className="carouselCard">
               <img
                 className="image_client"
-                src={require("../assets/1.jpeg")}
+                src={require("../assets/logo/patel.png")}
                 alt=""
-              />
+              />              <br />
+
               
             </div>  
             <div className="carouselCard">
               <img
                 className="image_client"
-                src={require("../assets/1.jpeg")}
+                src={require("../assets/logo/r&b_gujarat.png")}
                 alt=""
-              />
+              />              <br />
+
             </div>
             <div className="carouselCard">
               {" "}
               <img
                 className="image_client"
-                src={require("../assets/1.jpeg")}
+                src={require("../assets/logo/welspun.png")}
                 alt=""
-              />{" "}
+              />{" "}              <br />
+
             </div>
           </ItemsCarousel>
         </Wrapper>
