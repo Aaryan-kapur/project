@@ -1,3 +1,26 @@
-.footer{
-    background-color: #697dff;
+.footerMain{
+    background: linear-gradient(0, rgb(64, 4, 192) 54%, rgb(42, 110, 255) 100%);
+    // background-color: black;;
+    height:30%;
+    padding: 5vh 0 5vh 0 ;
+    text-align: left;
+    .textHeading{
+        font-size:1.6rem;
+        font-weight:600;
+        color:white;
+        margin-bottom:3vh !important;
+
+    }
+    .text_Footer{
+        color: #C0C0C0;
+    }
+    .emailFooter{
+        color:white;
+        font-weight:400;
+
+    }
+    .image_footer{
+        width:100%;
+
+    }
 }

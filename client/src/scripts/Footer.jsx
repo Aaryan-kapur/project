@@ -1,69 +1,52 @@
-import React from "react";
-import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
+import React, { Component } from 'react';
 import "../styles/Footer.scss";
-const Footer = () => {
-  return (
-    <MDBFooter className="font-small footer pt-4 mt-4">
-      <div className="container">
-        <MDBContainer fluid className="text-center text-md-left">
-          <MDBRow>
-            <MDBCol md="6">
-              <h5 className="titleFooter">
-                {" "}
-                <b>About us</b>
-              </h5>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-                laborum asperiores neque autem voluptate. Ad, quia molestias?
-                Soluta ex commodi perspiciatis deserunt, aperiam eum nihil autem
-                asperiores obcaecati a placeat?
-              </p>
-            </MDBCol>
-            <MDBCol md="3">
-              <h5 className="titleFooter">Links</h5>
-              <ul>
-                <li className="list-unstyled">
-                  <a href="#!">Link 1</a>
-                </li>
-                <li className="list-unstyled">
-                  <a href="#!">Link 2</a>
-                </li>
-                <li className="list-unstyled">
-                  <a href="#!">Link 3</a>
-                </li>
-                <li className="list-unstyled">
-                  <a href="#!">Link 4</a>
-                </li>
-              </ul>
-            </MDBCol>
-            <MDBCol md="3">
-              <h5 className="titleFooter">Links</h5>
-              <ul>
-                <li className="list-unstyled">
-                  <a href="#!">Link 1</a>
-                </li>
-                <li className="list-unstyled">
-                  <a href="#!">Link 2</a>
-                </li>
-                <li className="list-unstyled">
-                  <a href="#!">Link 3</a>
-                </li>
-                <li className="list-unstyled">
-                  <a href="#!">Link 4</a>
-                </li>
-              </ul>
-            </MDBCol>
-          </MDBRow>
-        </MDBContainer>
+class Footer extends Component {
+  state = {  }
+  render() { 
+    return (
+      <div className="footerMain">
+          <div className="container">
+            <div className="row">
+              <div className="col-sm-12 col-md-4">
+                <div className="footer_heading">
+                  <span className="textHeading">
+                    Our Office
+                  </span>
+                </div>
+              <img
+                className="image_footer"
+                src={require("../assets/image_footer.png")}
+                alt=""
+              />        
+              <span className="text_Footer">
+                address, address field , addresss <br />
+                pincode
+              </span>
+              </div>
+              <div className="col-sm-12 col-md-4">
+              <span className="textHeading">
+                    Say Hello<br />
+                  </span>
+                  <span className="text_Footer">
+                        if you are interested in working with us or <br /> just want to say hello, just drop a line!
+                  </span>
+                  <br />
+                  <span className="emailFooter">
+                    hdhddh@dhdhdh.com
+                  </span>
+              </div>
+              <div className="col-sm-12 col-md-4">
+              <span className="textHeading">
+Find Us                  </span>
+<br />
+<span className="text_Footer">
+social media                  </span>
+              </div>
+            </div>
+          </div>
       </div>
-      <div className="footer-copyright text-center py-3">
-        <MDBContainer fluid>
-          &copy; {new Date().getFullYear()} Copyright:{" "}
-          <a href="perplexed.tech"> perplexed.tech </a>
-        </MDBContainer>
-      </div>
-    </MDBFooter>
-  );
-};
-
+      );
+  }
+}
+ 
 export default Footer;

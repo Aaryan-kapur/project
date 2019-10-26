@@ -1,7 +1,8 @@
 @import "colors.scss";
 
 .mainDetails {
-  background-color: $tertiary;
+  background: linear-gradient(0, rgb(64, 4, 192) 54%, rgb(42, 110, 255) 100%);
+
   color: $primary;
   padding: 1rem;
   .titleDetails {
