@@ -22,7 +22,7 @@ class Upper extends Component {
                     </p>
                   </div>
                   <span className="text_upper">
-                    We bring back life your old hydraulic unit and grant a new lease of life
+                    We bring back life to your old hydraulic unit and grant a new lease of life
                   </span>
                 </MDBCol>
                 <MDBCol sm="12" md="6" className="rightUpper">
@@ -44,7 +44,7 @@ class Upper extends Component {
                     </p>
                   </div>
                   <span className="text_upper">
-                    We bring back life your old hydraulic unit and grant a new lease of life
+                    We bring back life to your old hydraulic unit and grant a new lease of life
                   </span>
                 </MDBCol>
               </MDBRow>

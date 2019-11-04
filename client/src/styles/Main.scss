@@ -1,41 +1,38 @@
 .outerMain {
   text-align: center;
   text-align: center;
-  
+
   .mainHeading {
-      // font-weight:500;
-      // font-size:3rem;
-      font-size: 3rem;
+    // font-weight:500;
+    // font-size:3rem;
+    font-size: 3rem;
     font-weight: 600;
     margin-bottom: 2rem;
-    @media only screen and (max-width:768px){
+    @media only screen and (max-width: 768px) {
       font-size: 2.6rem;
       font-weight: 600;
-        
     }
- 
-
   }
-  .container1{
+  .container1 {
     text-align: center;
   }
   .cardRow {
     margin-bottom: 5rem;
-text-align: center;
+    text-align: center;
     .cardDetails {
       text-align: center;
       .cardMain {
         border-radius: 20px;
-        // width: 20rem;
+        width: 22rem;
         @media only screen and (max-width: 768px) {
           //   width: 18rem;
           margin-top: 2rem;
-          width:22rem;
+          width: 22rem;
         }
       }
       .cardImage {
         border-radius: 20px 20px 0 0;
-        width: 30rem !important ;
+        // width: 30rem !important ;
         // width:300%;
         @media only screen and (max-width: 768px) {
           width: 22rem;
@@ -44,6 +41,6 @@ text-align: center;
     }
   }
 }
-.cardDetails1{
-  padding-right:10px;
+.cardDetails1 {
+  padding-right: 10px;
 }
