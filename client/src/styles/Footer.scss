@@ -4,6 +4,8 @@
     height:30%;
     padding: 5vh 0 5vh 0 ;
     text-align: left;
+    @media only screen and (max-width: 768px) {
+height:100vh;         }
     .textHeading{
         font-size:1.6rem;
         font-weight:600;
@@ -13,6 +15,7 @@
     }
     .text_Footer{
         color: #C0C0C0;
+        margin-top: 20px;
     }
     .emailFooter{
         color:white;
@@ -20,7 +23,20 @@
 
     }
     .image_footer{
-        width:100%;
-
+        width:60%;
+        @media only screen and (max-width: 768px) {
+width:100%;          }
     }
+}
+.container2{
+    padding: 0 10rem;
+    text-align: center;
+    @media only screen and (max-width: 768px) {
+        padding:0 3rem;
+      }
+}
+.footer_dabba{
+    @media only screen and (max-width: 768px) {
+        margin:2.6rem 0;
+      }
 }

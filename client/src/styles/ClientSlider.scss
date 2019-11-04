@@ -1,16 +1,9 @@
-.title-h {
-  width: 100%;
-  text-align: center;
-  margin: 2rem 0;
-  @media only  screen and  (max-width:768px) {
-margin-bottom:10px;
-    
-  }
+
   .TitleClient {
     font-size: 3rem;
     font-weight: 600;
   }
-}
+
 .carouselCard {
   height: 250px;
   text-align: center;
@@ -22,14 +15,14 @@ margin-bottom:10px;
 
 } 
 .onPC{
-  @media only  screen and  (max-width:768px) {
+  @media only  screen and  (max-width:767px) {
     display: none;
     visibility: hidden;
     
   }
 }
 .onPhone{
-  @media only  screen and  (min-width:768px) {
+  @media only  screen and  (min-width:767px) {
     display: none;
     visibility: hidden;
     

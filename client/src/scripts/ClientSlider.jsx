@@ -55,9 +55,7 @@ export default class ClientSlider extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div className="title-h">
-          <span className="TitleClient">Our Clients</span>
-        </div>
+     
         <Wrapper className="onPC">
           <ItemsCarousel
             gutter={12}

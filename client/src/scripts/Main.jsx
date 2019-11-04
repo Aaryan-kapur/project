@@ -10,6 +10,13 @@ import {
   MDBCardText
 } from "mdbreact";
 import "../styles/Main.scss";
+import a from "../assets/1.jpg"
+import b from "../assets/2.png"
+import c from "../assets/3.png"
+import d from "../assets/4.png"
+
+
+
 class Main extends Component {
 
   state = {};
@@ -28,7 +35,7 @@ class Main extends Component {
                   <MDBCard className="cardMain z-depth-4">
                     <MDBCardImage
                       className="img-fluid cardImage"
-                      src="https://image.freepik.com/free-vector/industrial-robot-isometric-concept_1284-6047.jpg"
+                      src={c}
                       waves
                     />
                     <MDBCardBody>
@@ -47,7 +54,7 @@ class Main extends Component {
                   <MDBCard className="cardMain z-depth-4">
                     <MDBCardImage
                       className="img-fluid cardImage"
-                      src="https://image.freepik.com/free-vector/industrial-robot-isometric-concept_1284-6047.jpg"
+                      src={d}
                       waves
                     />
                     <MDBCardBody>
@@ -69,7 +76,7 @@ class Main extends Component {
 
                     <MDBCardImage
                       className="img-fluid cardImage"
-                      src="https://image.freepik.com/free-vector/industrial-robot-isometric-concept_1284-6047.jpg"
+                      src={b}
                       waves
                     />
                     <MDBCardBody>
