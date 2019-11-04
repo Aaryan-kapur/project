@@ -85,14 +85,18 @@ class Details extends Component {
 
                 <MDBCol className="leftDetails" sm="12" md="6">
                   <div className="wow fadeInUp">
-                    <p className="DetailsTitle">Unmatched Reliability and Customizability</p>
+                    <p className="DetailsTitle">Unmatched Customizability</p>
                     <br />
                     <p>
-                      Details for tab 1 Lorem ipsum dolor sit amet consectetur
-                      adipisicing elit. Voluptate, temporibus saepe! Asperiores
-                      placeat, harum reprehenderit odit nesciunt magni, facere
-                      voluptates animi amet aspernatur ipsum? Doloremque
-                      deserunt quibusdam aut facere veritatis?
+                      This is a 370hp, very large and versatile and unique
+                      hydraulic test bench that can be altered to test each and
+                      every type of hydraulic pump of vast range of capacity. On
+                      this bench we can take full and exhaustive test of all
+                      refurbished units and set all parameters very precisely to
+                      the customer’s requirements.We test all these units for
+                      vast range of parameters required by our clients. There is
+                      also provision for testing of vast range of hydraulic
+                      motors.
                     </p>
                   </div>
                 </MDBCol>
@@ -110,14 +114,18 @@ class Details extends Component {
 
                 <MDBCol className="leftDetails" sm="12" md="6">
                   <div className="wow fadeInUp">
-                    <p className="DetailsTitle">Details</p>
+                    <p className="DetailsTitle">Unmatched Customizability </p>
                     <br />
                     <p>
-                      Details for tab 1 Lorem ipsum dolor sit amet consectetur
-                      adipisicing elit. Voluptate, temporibus saepe! Asperiores
-                      placeat, harum reprehenderit odit nesciunt magni, facere
-                      voluptates animi amet aspernatur ipsum? Doloremque
-                      deserunt quibusdam aut facere veritatis?
+                      This is a 370hp, very large and versatile and unique
+                      hydraulic test bench that can be altered to test each and
+                      every type of hydraulic pump of vast range of capacity. On
+                      this bench we can take full and exhaustive test of all
+                      refurbished units and set all parameters very precisely to
+                      the customer’s requirements.We test all these units for
+                      vast range of parameters required by our clients. There is
+                      also provision for testing of vast range of hydraulic
+                      motors.
                     </p>
                   </div>
                 </MDBCol>
@@ -125,14 +133,18 @@ class Details extends Component {
               <MDBRow className="rowDetails onPC">
                 <MDBCol className="leftDetails" sm="12" md="6">
                   <div className="wow fadeInUp">
-                    <p className="DetailsTitle">Details</p>
+                    <p className="DetailsTitle">Complete Hydraulic solutions</p>
                     <br />
                     <p>
-                      Details for tab 1 Lorem ipsum dolor sit amet consectetur
-                      adipisicing elit. Voluptate, temporibus saepe! Asperiores
-                      placeat, harum reprehenderit odit nesciunt magni, facere
-                      voluptates animi amet aspernatur ipsum? Doloremque
-                      deserunt quibusdam aut facere veritatis?
+                      We make all the vital components in a hydraulic system,
+                      namely pistons, set plates, shoe plates, drive shafts,
+                      rotors, valve plates, saddle bearings and lock-plates, in
+                      house. This allows us to be sure about our quality,
+                      because we have control over the input material, a vital
+                      consideration in hydraulic machinery components, and the
+                      precision manufacturing processes that go into their
+                      manufacturing. These range from turning and milling, to
+                      precision heat-treatment and grinding.
                     </p>
                   </div>
                 </MDBCol>
@@ -158,14 +170,18 @@ class Details extends Component {
                 </MDBCol>
                 <MDBCol className="leftDetails" sm="12" md="6">
                   <div className="wow fadeInUp">
-                    <p className="DetailsTitle">Details</p>
+                    <p className="DetailsTitle">Complete Hydraulic solutions</p>
                     <br />
                     <p>
-                      Details for tab 1 Lorem ipsum dolor sit amet consectetur
-                      adipisicing elit. Voluptate, temporibus saepe! Asperiores
-                      placeat, harum reprehenderit odit nesciunt magni, facere
-                      voluptates animi amet aspernatur ipsum? Doloremque
-                      deserunt quibusdam aut facere veritatis?
+                      We make all the vital components in a hydraulic system,
+                      namely pistons, set plates, shoe plates, drive shafts,
+                      rotors, valve plates, saddle bearings and lock-plates, in
+                      house. This allows us to be sure about our quality,
+                      because we have control over the input material, a vital
+                      consideration in hydraulic machinery components, and the
+                      precision manufacturing processes that go into their
+                      manufacturing. These range from turning and milling, to
+                      precision heat-treatment and grinding.
                     </p>
                   </div>
                 </MDBCol>
