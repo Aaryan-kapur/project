@@ -3,7 +3,9 @@ import "../styles/Upper.scss";
 // import {mainUpper} from "../assets/Upper.png";
 import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 
+// const logo = require("../assets/1.png");
 const logo = require("../assets/Upper.png");
+
 class Upper extends Component {
   state = {};
   render() {
