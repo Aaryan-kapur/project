@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import { MDBRow, MDBCol } from "mdbreact";
 import "../styles/Details.scss";
+import in1 from "../assets/in1.jpg";
+import in2 from "../assets/in2.png";
+import in3 from "../assets/in3.png";
+
 class Details extends Component {
   state = {};
   render() {
@@ -36,7 +40,7 @@ class Details extends Component {
                   <div className="wow fadeInRight">
                     <img
                       className=" z-depth-4 imageDetails"
-                      src="https://image.freepik.com/free-vector/mining-infographic-set_1284-16816.jpg"
+                      src={in1}
                       alt=""
                     />
                   </div>
@@ -47,7 +51,7 @@ class Details extends Component {
                   <div className="wow fadeInUp">
                     <img
                       className=" z-depth-4 imageDetails"
-                      src="https://image.freepik.com/free-vector/mining-infographic-set_1284-16816.jpg"
+                      src={in1}
                       alt=""
                     />
                   </div>
@@ -77,7 +81,7 @@ class Details extends Component {
                   <div className="wow fadeInLeft">
                     <img
                       className=" z-depth-4 imageDetails"
-                      src="https://image.freepik.com/free-vector/mining-infographic-set_1284-16816.jpg"
+                      src={in2}
                       alt=""
                     />
                   </div>
@@ -106,7 +110,7 @@ class Details extends Component {
                   <div className="wow fadeInUp">
                     <img
                       className=" z-depth-4 imageDetails"
-                      src="https://image.freepik.com/free-vector/mining-infographic-set_1284-16816.jpg"
+                      src={in2}
                       alt=""
                     />
                   </div>
@@ -141,7 +145,7 @@ class Details extends Component {
                       rotors, valve plates, saddle bearings and lock-plates, in
                       house. This allows us to be sure about our quality,
                       because we have control over the input material, a vital
-                      consideration in hydraulic machinery components, and the
+                      consideration in hydraulic machinery components, and the  
                       precision manufacturing processes that go into their
                       manufacturing. These range from turning and milling, to
                       precision heat-treatment and grinding.
@@ -152,7 +156,7 @@ class Details extends Component {
                   <div className="wow fadeInRight">
                     <img
                       className=" z-depth-4 imageDetails"
-                      src="https://image.freepik.com/free-vector/mining-infographic-set_1284-16816.jpg"
+                      src={in3}
                       alt=""
                     />
                   </div>
@@ -163,7 +167,7 @@ class Details extends Component {
                   <div className="wow fadeInUp">
                     <img
                       className=" z-depth-4 imageDetails"
-                      src="https://image.freepik.com/free-vector/mining-infographic-set_1284-16816.jpg"
+                      src={in3}
                       alt=""
                     />
                   </div>

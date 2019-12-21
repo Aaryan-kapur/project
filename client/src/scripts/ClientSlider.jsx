@@ -55,7 +55,6 @@ export default class ClientSlider extends React.Component {
   render() {
     return (
       <React.Fragment>
-     
         <Wrapper className="onPC">
           <ItemsCarousel
             gutter={12}
@@ -73,25 +72,24 @@ export default class ClientSlider extends React.Component {
                 className="image_client"
                 src={require("../assets/logo/aditya_birla.png")}
                 alt=""
-              />              <br />
-
+              />{" "}
+              <br />
             </div>
             <div className="carouselCard">
               <img
                 className="image_client"
                 src={require("../assets/logo/essar.png")}
                 alt=""
-              />              <br />
-
-              
-            </div>  
+              />{" "}
+              <br />
+            </div>
             <div className="carouselCard">
               <img
                 className="image_client"
                 src={require("../assets/logo/GMDC.png")}
                 alt=""
-              />              <br />
-
+              />{" "}
+              <br />
             </div>
             <div className="carouselCard">
               {" "}
@@ -99,33 +97,32 @@ export default class ClientSlider extends React.Component {
                 className="image_client"
                 src={require("../assets/logo/isgec.png")}
                 alt=""
-              />{" "}              <br />
-
+              />{" "}
+              <br />
             </div>
             <div className="carouselCard">
               <img
                 className="image_client"
                 src={require("../assets/logo/l&t.png")}
                 alt=""
-              />              <br />
-
+              />{" "}
+              <br />
             </div>
             <div className="carouselCard">
               <img
                 className="image_client"
                 src={require("../assets/logo/patel.png")}
                 alt=""
-              />              <br />
-
-              
-            </div>  
+              />{" "}
+              <br />
+            </div>
             <div className="carouselCard">
               <img
                 className="image_client"
                 src={require("../assets/logo/r&b_gujarat.png")}
                 alt=""
-              />              <br />
-
+              />{" "}
+              <br />
             </div>
             <div className="carouselCard">
               {" "}
@@ -133,12 +130,77 @@ export default class ClientSlider extends React.Component {
                 className="image_client"
                 src={require("../assets/logo/welspun.png")}
                 alt=""
-              />{" "}              <br />
-
+              />{" "}
+              <br />
+            </div>
+            <div className="carouselCard">
+              <img
+                className="image_client"
+                src={require("../assets/logo/denison-hydraulic.png")}
+                alt=""
+              />{" "}
+              <br />
+            </div>
+            <div className="carouselCard">
+              <img
+                className="image_client"
+                src={require("../assets/logo/komatsu.png")}
+                alt=""
+              />{" "}
+              <br />
+            </div>
+            <div className="carouselCard">
+              <img
+                className="image_client"
+                src={require("../assets/logo/kwasaki.png")}
+                alt=""
+              />{" "}
+              <br />
+            </div>
+            <div className="carouselCard">
+              {" "}
+              <img
+                className="image_client"
+                src={require("../assets/logo/liebherr.png")}
+                alt=""
+              />{" "}
+              <br />
+            </div>
+            <div className="carouselCard">
+              <img
+                className="image_client"
+                src={require("../assets/logo/linde.png")}
+                alt=""
+              />{" "}
+              <br />
+            </div>
+            <div className="carouselCard">
+              <img
+                className="image_client"
+                src={require("../assets/logo/parker.png")}
+                alt=""
+              />{" "}
+              <br />
+            </div>
+            <div className="carouselCard">
+              <img
+                className="image_client"
+                src={require("../assets/logo/rexroth.png")}
+                alt=""
+              />{" "}
+              <br />
+            </div>
+            <div className="carouselCard">
+              {" "}
+              <img
+                className="image_client"
+                src={require("../assets/logo/vickers.png")}
+                alt=""
+              />{" "}
+              <br />
             </div>
           </ItemsCarousel>
         </Wrapper>
-
 
         <Wrapper className="onPhone">
           <ItemsCarousel
@@ -152,30 +214,29 @@ export default class ClientSlider extends React.Component {
             outsideChevron
             children={carouselItems}
           >
-             <div className="carouselCard">
+            <div className="carouselCard">
               <img
                 className="image_client"
                 src={require("../assets/logo/aditya_birla.png")}
                 alt=""
-              />              <br />
-
+              />{" "}
+              <br />
             </div>
             <div className="carouselCard">
               <img
                 className="image_client"
                 src={require("../assets/logo/essar.png")}
                 alt=""
-              />              <br />
-
-              
-            </div>  
+              />{" "}
+              <br />
+            </div>
             <div className="carouselCard">
               <img
                 className="image_client"
                 src={require("../assets/logo/GMDC.png")}
                 alt=""
-              />              <br />
-
+              />{" "}
+              <br />
             </div>
             <div className="carouselCard">
               {" "}
@@ -183,33 +244,32 @@ export default class ClientSlider extends React.Component {
                 className="image_client"
                 src={require("../assets/logo/isgec.png")}
                 alt=""
-              />{" "}              <br />
-
+              />{" "}
+              <br />
             </div>
             <div className="carouselCard">
               <img
                 className="image_client"
                 src={require("../assets/logo/l&t.png")}
                 alt=""
-              />              <br />
-
+              />{" "}
+              <br />
             </div>
             <div className="carouselCard">
               <img
                 className="image_client"
                 src={require("../assets/logo/patel.png")}
                 alt=""
-              />              <br />
-
-              
-            </div>  
+              />{" "}
+              <br />
+            </div>
             <div className="carouselCard">
               <img
                 className="image_client"
                 src={require("../assets/logo/r&b_gujarat.png")}
                 alt=""
-              />              <br />
-
+              />{" "}
+              <br />
             </div>
             <div className="carouselCard">
               {" "}
@@ -217,8 +277,74 @@ export default class ClientSlider extends React.Component {
                 className="image_client"
                 src={require("../assets/logo/welspun.png")}
                 alt=""
-              />{" "}              <br />
-
+              />{" "}
+              <br />
+            </div>
+            <div className="carouselCard">
+              <img
+                className="image_client"
+                src={require("../assets/logo/denison-hydraulic.png")}
+                alt=""
+              />{" "}
+              <br />
+            </div>
+            <div className="carouselCard">
+              <img
+                className="image_client"
+                src={require("../assets/logo/komatsu.png")}
+                alt=""
+              />{" "}
+              <br />
+            </div>
+            <div className="carouselCard">
+              <img
+                className="image_client"
+                src={require("../assets/logo/kwasaki.png")}
+                alt=""
+              />{" "}
+              <br />
+            </div>
+            <div className="carouselCard">
+              {" "}
+              <img
+                className="image_client"
+                src={require("../assets/logo/liebherr.png")}
+                alt=""
+              />{" "}
+              <br />
+            </div>
+            <div className="carouselCard">
+              <img
+                className="image_client"
+                src={require("../assets/logo/linde.png")}
+                alt=""
+              />{" "}
+              <br />
+            </div>
+            <div className="carouselCard">
+              <img
+                className="image_client"
+                src={require("../assets/logo/parker.png")}
+                alt=""
+              />{" "}
+              <br />
+            </div>
+            <div className="carouselCard">
+              <img
+                className="image_client"
+                src={require("../assets/logo/rexroth.png")}
+                alt=""
+              />{" "}
+              <br />
+            </div>
+            <div className="carouselCard">
+              {" "}
+              <img
+                className="image_client"
+                src={require("../assets/logo/vickers.png")}
+                alt=""
+              />{" "}
+              <br />
             </div>
           </ItemsCarousel>
         </Wrapper>

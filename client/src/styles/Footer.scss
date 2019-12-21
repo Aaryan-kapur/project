@@ -1,11 +1,10 @@
 .footerMain{
     background: linear-gradient(0, rgb(64, 4, 192) 54%, rgb(42, 110, 255) 100%);
     // background-color: black;;
-    height:30%;
+    height:fit-content;
     padding: 5vh 0 5vh 0 ;
     text-align: left;
-    @media only screen and (max-width: 768px) {
-height:100vh;         }
+  
     .textHeading{
         font-size:1.6rem;
         font-weight:600;
